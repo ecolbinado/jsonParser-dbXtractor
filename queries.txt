@@ -1,0 +1,9 @@
+//QUERIES
+SELECT DISTINCT movies.movie_title, movies.uuid, movies.rating, movies.cast, movies.image_url, movies.release_date, movies.synopsis, schedules.variant, movies.id FROM movies LEFT JOIN schedules ON movies.id = schedules.movie_id;
+SELECT DISTINCT movies.movie_title, movies.id, schedules.variant FROM movies.id FROM movies LEFT JOIN schedules ON movies.id = schedules.movie_id;
+SELECT schedules.uuid, schedules.cinema_code, movies.uuid, schedules.price, schedules.seat_type, schedules.price, schedules.screening, schedules.theater_code, schedules.variant FROM schedules LEFT JOIN movies ON schedules.movie_id = movies.id WHERE movies.id = 8595;
+
+//REGEXES
+(?<=\(3D/4DX\)\s).*
+(?<=\(ATMOS\)\s).*
+

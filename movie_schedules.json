@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "id": "450eb8ec-bcc3-11e9-a0d4-acde48001122",
+      "schedule": {
+        "cinema": "5",
+        "movie": "2983dcc6-bcc3-11e9-84fd-acde48001122",
+        "price": "500.00",
+        "seating_type": "Guaranteed Seats",
+        "show_date": "18 Oct 2017",
+        "start_times": [
+          "14:45",
+          "17:10",
+          "19:35",
+          "22:00"
+        ],
+        "theater": "GB3",
+        "variant": "3D/4DX"
+      }
+    },
+    {
+      "id": "4510cd80-bcc3-11e9-a707-acde48001122",
+      "schedule": {
+        "cinema": "4",
+        "movie": "2983dcc6-bcc3-11e9-84fd-acde48001122",
+        "price": "500.00",
+        "seating_type": "Guaranteed Seats",
+        "show_date": "18 Oct 2017",
+        "start_times": [
+          "12:20",
+          "14:45",
+          "17:15",
+          "19:45",
+          "22:15"
+        ],
+        "theater": "BHS",
+        "variant": "3D/4DX"
+      }
+    },
+    {
+      "id": "4511c1e2-bcc3-11e9-a70d-acde48001122",
+      "schedule": {
+        "cinema": "4",
+        "movie": "2983dcc6-bcc3-11e9-84fd-acde48001122",
+        "price": "500.00",
+        "seating_type": "Guaranteed Seats",
+        "show_date": "18 Oct 2017",
+        "start_times": [
+          "13:15",
+          "15:50",
+          "18:25",
+          "21:00"
+        ],
+        "theater": "UPTC",
+        "variant": "3D/4DX"
+      }
+    }
+  ]
+}

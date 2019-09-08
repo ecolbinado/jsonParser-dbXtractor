@@ -1,0 +1,20 @@
+Notes:
+1.) A script is mapped as a solution on each task. (Task1 => now_showing.py, Task2 => coming_soon.py, Task3 => schedules.py, Task4 => movies.py, Task5 => movie_schedules.py
+
+2.) main.py must be on the same folder as the other scripts (or may be internally remapped). 
+
+3.) The input files (json files) must also be placed on the same folder as the scripts (or may be internally remapped).
+
+4.) movies.db has been pre-created. For testing purposes, movies.db can be deleted. 
+
+5.) To create movies.db, trigger feed json data by running now_showing.py, coming_soon.py, or schedules.py.
+
+6.) now_showing.py or coming_soon.py creates the movie table. schedules.py creates the schedule table.
+
+7.) From movies table (only), assumption is that movie_id is unique.
+
+8.) movie_schedules.py accepts movie_id and date (mm/dd/yyyy) as arguments (filter).
+
+9.) Output files; movies.json and movie_schedules.json can be deleted before running movies.py or movie_schedules.py
+
+10.) Programs may not be bug-free.

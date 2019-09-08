@@ -1,0 +1,5 @@
+RQ.01: SQLite3 - SQLite version 3.23.1
+RQ.02: Python - Python 3.6.5
+RQ.03: Python Libraries - sys, os, json, sqlite3, uuid, re, datetime
+RQ.04: Assumption - Movies that are "3D/4DX" or "ATMOS" must be reflected on "movie_title" when planning to add more json files.
+RQ.05: movies.db may or may not be deleted before testing Part2 Tasks 1, 2, & 3.
